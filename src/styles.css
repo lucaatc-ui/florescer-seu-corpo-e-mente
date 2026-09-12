@@ -67,6 +67,7 @@
   --color-sand: var(--sand);
   --color-clay: var(--clay);
   --color-moss: var(--moss);
+  --color-florish: var(--florish);
   --color-ink: var(--ink);
   --color-sage: var(--sage);
 }
@@ -79,6 +80,7 @@
   --sand: oklch(0.910 0.020 98.00);
   --clay: oklch(0.580 0.090 58.00);
   --moss: oklch(0.440 0.040 130.00);
+  --florish: oklch(0.62 0.145 142.00);
   --ink: oklch(0.280 0.018 130.00);
   --sage: oklch(0.720 0.038 105.00);
 

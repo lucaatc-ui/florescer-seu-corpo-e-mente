@@ -48,7 +48,7 @@ function Index() {
           </a>
           <a
             href="#acesso"
-            className="text-sm font-medium text-clay transition-colors hover:text-moss"
+            className="text-sm font-medium text-clay transition-colors hover:text-florish"
           >
             Quero começar
           </a>
@@ -73,10 +73,10 @@ function Index() {
             </p>
             <a
               href="#acesso"
-              className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss hover:ring-moss/20"
+              className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
             >
               Quero melhorar minha relação com a comida!
-              <span aria-hidden="true" className="text-primary-foreground/80">
+              <span aria-hidden="true" className="text-cream/80">
                 →
               </span>
             </a>
@@ -166,10 +166,10 @@ function Index() {
           </div>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss/90 hover:ring-moss/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
           >
             Quero melhorar minha relação com a comida!
-            <span aria-hidden="true" className="text-primary-foreground/80">
+            <span aria-hidden="true" className="text-cream/80">
               →
             </span>
           </a>
@@ -222,10 +222,10 @@ function Index() {
           </ul>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss/90 hover:ring-moss/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
           >
             Quero me relacionar melhor com a comida!
-            <span aria-hidden="true" className="text-primary-foreground/80">
+            <span aria-hidden="true" className="text-cream/80">
               →
             </span>
           </a>
@@ -273,7 +273,7 @@ function Index() {
             </div>
             <a
               href="#acesso"
-              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-background px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-inset ring-background/20 transition-colors hover:bg-white"
+              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
             >
               Quero melhorar minha relação com a comida!
               <span aria-hidden="true">→</span>
@@ -294,7 +294,7 @@ function Index() {
           </p>
           <a
             href="#acesso"
-            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-background px-8 py-4 text-sm font-medium text-foreground ring-1 ring-inset ring-background/20 transition-colors hover:bg-cream"
+            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-8 py-4 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true">→</span>
