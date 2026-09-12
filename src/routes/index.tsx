@@ -273,7 +273,7 @@ function Index() {
             </div>
             <a
               href="#acesso"
-              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-background px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-inset ring-background/20 transition-colors hover:bg-white"
+              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
             >
               Quero melhorar minha relação com a comida!
               <span aria-hidden="true">→</span>
@@ -294,7 +294,7 @@ function Index() {
           </p>
           <a
             href="#acesso"
-            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-background px-8 py-4 text-sm font-medium text-foreground ring-1 ring-inset ring-background/20 transition-colors hover:bg-cream"
+            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-8 py-4 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true">→</span>
