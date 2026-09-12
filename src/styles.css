@@ -24,7 +24,7 @@
   --radius-4xl: calc(var(--radius) + 16px);
 
   /* Fonts */
-  --font-display: "Fraunces", Georgia, serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Karla", system-ui, sans-serif;
 
   /* Semantic shadcn tokens */
@@ -74,13 +74,13 @@
 :root {
   --radius: 0.625rem;
 
-  /* Botanical light palette */
-  --cream: oklch(0.962 0.009 199.37);
-  --sand: oklch(0.921 0.019 98.54);
-  --clay: oklch(0.619 0.084 60.30);
-  --moss: oklch(0.504 0.046 130.98);
-  --ink: oklch(0.310 0.019 135.37);
-  --sage: oklch(0.746 0.035 100.32);
+  /* Botanical light palette — aligned with brand mark */
+  --cream: oklch(0.955 0.012 95.00);
+  --sand: oklch(0.910 0.020 98.00);
+  --clay: oklch(0.580 0.090 58.00);
+  --moss: oklch(0.440 0.040 130.00);
+  --ink: oklch(0.280 0.018 130.00);
+  --sage: oklch(0.720 0.038 105.00);
 
   --background: var(--cream);
   --foreground: var(--ink);

@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
 import expertPortrait from "../assets/expert-portrait.jpg";
+import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -32,15 +33,19 @@ function Index() {
     <main className="min-h-screen bg-background text-foreground antialiased selection:bg-accent/40">
       {/* Nav */}
       <header className="border-b border-foreground/10">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 lg:px-8">
-          <div className="flex items-baseline gap-2">
-            <span className="font-display text-2xl font-medium tracking-tight text-foreground">
-              Florescer
-            </span>
+        <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-8">
+          <a href="/" className="flex items-center gap-3">
+            <img
+              src={logoAsset.url}
+              alt="Florescer"
+              width={40}
+              height={40}
+              className="size-10 object-contain"
+            />
             <span className="hidden text-xs uppercase tracking-[0.2em] text-moss sm:inline">
               um curso
             </span>
-          </div>
+          </a>
           <a
             href="#acesso"
             className="text-sm font-medium text-clay transition-colors hover:text-moss"
@@ -303,10 +308,19 @@ function Index() {
       </section>
 
       <footer className="border-t border-foreground/10 py-8">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 sm:flex-row lg:px-8">
-          <span className="font-display text-lg font-medium tracking-tight">
-            Florescer
-          </span>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 sm:flex-row lg:px-8">
+          <div className="flex items-center gap-3">
+            <img
+              src={logoAsset.url}
+              alt="Florescer"
+              width={32}
+              height={32}
+              className="size-8 object-contain"
+            />
+            <span className="font-display text-lg font-medium tracking-tight">
+              Florescer
+            </span>
+          </div>
           <p className="text-xs text-foreground/45">
             Um espaço de acolhimento para a sua relação com a comida. © 2026
           </p>
