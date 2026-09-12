@@ -255,10 +255,7 @@ function Index() {
               Eu sou Luiza Lucci.
             </h2>
             <p className="mt-6 max-w-[52ch] text-base leading-relaxed text-background/80 text-pretty sm:text-lg">
-              Psicóloga, mãe e alguém que já viveu de perto a compulsão
-              alimentar. Criei o Florescer para que você não precise
-              atravessar sozinha o que eu precisei atravessar — com método,
-              acolhimento e uma equipe que cuida de você por inteiro.
+              (adicionar descrição)
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-background/70">
               <span className="flex items-center gap-2">
