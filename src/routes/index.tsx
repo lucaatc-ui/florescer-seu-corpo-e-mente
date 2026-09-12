@@ -120,8 +120,8 @@ function Index() {
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5">
-              <span className="font-display text-5xl leading-none text-accent/70">
+          <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
                 01
               </span>
               <h3 className="mt-4 font-display text-xl font-medium text-foreground">
@@ -135,8 +135,8 @@ function Index() {
                 altas quantidades de comida e etc…
               </p>
             </div>
-            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5">
-              <span className="font-display text-5xl leading-none text-accent/70">
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
                 02
               </span>
               <h3 className="mt-4 font-display text-xl font-medium text-foreground">
@@ -147,11 +147,11 @@ function Index() {
                 maior saciedade, trazem as vitaminas e minerais que
                 necessitamos para o funcionamento do nosso corpo e mente,
                 diminuindo a possibilidade de crises que usam a comida como
-                válvula de escape.
+                               válvula de escape.
               </p>
             </div>
-            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5">
-              <span className="font-display text-5xl leading-none text-accent/70">
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
                 03
               </span>
               <h3 className="mt-4 font-display text-xl font-medium text-foreground">
@@ -166,7 +166,7 @@ function Index() {
           </div>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss hover:ring-moss/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss/90 hover:ring-moss/20"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true" className="text-primary-foreground/80">
@@ -184,7 +184,7 @@ function Index() {
           </h2>
           <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
             <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-background font-display text-sm text-clay">
+              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
                 1
               </span>
               <p className="text-base leading-relaxed text-foreground/75 text-pretty">
@@ -193,7 +193,7 @@ function Index() {
               </p>
             </li>
             <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-background font-display text-sm text-clay">
+              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
                 2
               </span>
               <p className="text-base leading-relaxed text-foreground/75 text-pretty">
@@ -203,7 +203,7 @@ function Index() {
               </p>
             </li>
             <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-background font-display text-sm text-clay">
+              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
                 3
               </span>
               <p className="text-base leading-relaxed text-foreground/75 text-pretty">
@@ -211,7 +211,7 @@ function Index() {
               </p>
             </li>
             <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-background font-display text-sm text-clay">
+              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
                 4
               </span>
               <p className="text-base leading-relaxed text-foreground/75 text-pretty">
@@ -222,7 +222,7 @@ function Index() {
           </ul>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss hover:ring-moss/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss/90 hover:ring-moss/20"
           >
             Quero me relacionar melhor com a comida!
             <span aria-hidden="true" className="text-primary-foreground/80">
@@ -286,28 +286,26 @@ function Index() {
       </section>
 
       {/* CTA strip */}
-      <section id="acesso" className="py-20 lg:py-24">
+      <section id="acesso" className="bg-moss py-20 lg:py-24">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
-          <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-balance text-background sm:text-4xl lg:text-5xl">
             Pronta para florescer?
           </h2>
-          <p className="mx-auto mt-5 max-w-[44ch] text-base leading-relaxed text-foreground/65 text-pretty">
+          <p className="mx-auto mt-5 max-w-[44ch] text-base leading-relaxed text-background/75 text-pretty">
             Um começo suave, sem pressa e sem julgamento. A primeira aula já
             está te esperando.
           </p>
           <a
             href="#acesso"
-            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-primary px-8 py-4 text-sm font-medium text-primary-foreground ring-1 ring-inset ring-primary/20 transition-colors hover:bg-moss hover:ring-moss/20"
+            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-background px-8 py-4 text-sm font-medium text-foreground ring-1 ring-inset ring-background/20 transition-colors hover:bg-cream"
           >
             Quero melhorar minha relação com a comida!
-            <span aria-hidden="true" className="text-primary-foreground/80">
-              →
-            </span>
+            <span aria-hidden="true">→</span>
           </a>
         </div>
       </section>
 
-      <footer className="border-t border-foreground/10 py-8">
+      <footer className="bg-ink py-8 text-background">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 sm:flex-row lg:px-8">
           <div className="flex items-center gap-3">
             <img
@@ -321,7 +319,7 @@ function Index() {
               Florescer
             </span>
           </div>
-          <p className="text-xs text-foreground/45">
+          <p className="text-xs text-background/55">
             Um espaço de acolhimento para a sua relação com a comida. © 2026
           </p>
         </div>
