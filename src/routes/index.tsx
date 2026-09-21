@@ -339,6 +339,121 @@ function Index() {
         </div>
       </section>
 
+      {/* Dobra · O que você encontra dentro do Florescer */}
+      <section className="bg-muted py-20 lg:py-28">
+        <div className="mx-auto max-w-4xl px-6 lg:px-8">
+          <h2 className="max-w-[24ch] font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+            O que você encontra dentro do Florescer
+          </h2>
+
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
+                01
+              </span>
+              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
+                Minha jornada
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
+                Compulsão, restrição, obsessão corporal, minha experiência com
+                medicamentos emagrecedores e por que decidi sair das canetinhas,
+                além do que começou a mudar a minha relação com tudo isso.
+              </p>
+            </div>
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
+                02
+              </span>
+              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
+                Nutrição &amp; presença
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
+                Fome e saciedade, mindful eating, restrição, hormônios,
+                alimentação consciente, medicamentos emagrecedores e presença.
+              </p>
+            </div>
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
+                03
+              </span>
+              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
+                Compulsão &amp; emoções
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
+                Gatilhos, ansiedade, comparação, restrição, compulsão e
+                ferramentas práticas.
+              </p>
+            </div>
+            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
+              <span className="font-display text-5xl leading-none text-moss/60">
+                04
+              </span>
+              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
+                Autoestima &amp; corpo
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
+                Autoimagem, excesso de controle, flexibilidade alimentar e
+                autoestima para além da aparência.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-10 rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5">
+            <ul className="space-y-4">
+              <li className="flex items-start gap-4">
+                <span
+                  aria-hidden="true"
+                  className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+                />
+                <p className="text-base leading-relaxed text-foreground/75 text-pretty sm:text-lg">
+                  <span className="font-medium text-foreground">
+                    + práticas
+                  </span>{" "}
+                  de respiração, yoga e meditação
+                </p>
+              </li>
+              <li className="flex items-start gap-4">
+                <span
+                  aria-hidden="true"
+                  className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+                />
+                <p className="text-base leading-relaxed text-foreground/75 text-pretty sm:text-lg">
+                  <span className="font-medium text-foreground">
+                    + PDF de receitas
+                  </span>
+                </p>
+              </li>
+              <li className="flex items-start gap-4">
+                <span
+                  aria-hidden="true"
+                  className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+                />
+                <p className="text-base leading-relaxed text-foreground/75 text-pretty sm:text-lg">
+                  <span className="font-medium text-foreground">
+                    + apostila visual
+                  </span>{" "}
+                  com a síntese das aulas
+                </p>
+              </li>
+            </ul>
+            <p className="mt-6 border-t border-foreground/10 pt-5 text-sm leading-relaxed text-foreground/55 italic">
+              Os materiais de apoio também fazem parte da estrutura planejada do
+              produto.
+            </p>
+          </div>
+
+          <a
+            href="#acesso"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+          >
+            Quero melhorar minha relação com a comida!
+            <span aria-hidden="true" className="text-cream/80">
+              →
+            </span>
+          </a>
+        </div>
+      </section>
+
       {/* Dobra 04 · Expert */}
       <section className="bg-moss py-20 text-background lg:py-28">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
