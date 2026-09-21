@@ -63,13 +63,13 @@ function Index() {
               Relação saudável com a comida
             </p>
             <h1 className="fade-in fade-in-delay-1 max-w-[18ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              Ganhe uma nova visão sobre a comida e tenha uma relação com o seu
-              corpo mais saudável e emagrecimento eficiente.
+              Cansada de pensar em comida e no seu corpo o tempo inteiro?
             </h1>
             <p className="fade-in fade-in-delay-2 mt-6 max-w-[52ch] text-base leading-relaxed text-foreground/70 text-pretty sm:text-lg">
-              Libere acesso a psicólogas e nutricionistas especialistas em
-              neuroses alimentares para ganhar ferramentas para ser mais feliz
-              com seu corpo e alimentação.
+              Chega de viver entre controle, exagero, culpa e a promessa de que
+              amanhã vai ser diferente. Você faz “tudo certo” durante o dia e
+              sentir que perdeu o controle depois. Talvez você não precise de
+              mais uma dieta.
             </p>
             <a
               href="#acesso"
