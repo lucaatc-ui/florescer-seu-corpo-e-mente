@@ -106,7 +106,80 @@ function Index() {
         </div>
       </section>
 
-      {/* Dobra 02 · O que é */}
+      {/* Dobra 02 · Minha história */}
+      <section className="py-20 lg:py-28">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8">
+          <h2 className="max-w-[22ch] font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+            Talvez melhorar sua relação com corpo e comida não seja aprender a
+            controlá-los ainda mais.
+          </h2>
+          <p className="mt-8 text-base italic leading-relaxed text-foreground/70 text-pretty sm:text-lg">
+            Eu demorei anos para perceber isso.
+          </p>
+          <p className="mt-8 font-display text-2xl font-medium leading-snug text-foreground sm:text-3xl">
+            Oi, eu sou a Luiza Lucci.
+          </p>
+          <div className="mt-8 space-y-6 text-base leading-relaxed text-foreground/75 text-pretty sm:text-lg">
+            <p>
+              Durante muito tempo, vivi entre compulsão alimentar, restrição,
+              comparação, obsessão corporal e uma busca constante por
+              emagrecimento.
+            </p>
+            <p>
+              E nessa busca, eu também fui para as canetinhas
+              emagrecedoras.
+            </p>
+            <p>
+              Por um período, achei que finalmente tinha encontrado a solução.
+            </p>
+            <p>
+              Porque quando o seu maior medo é engordar, ter algo que diminui
+              sua fome pode parecer liberdade.
+            </p>
+            <p>
+              Mas, para mim, não foi. Em algum momento eu percebi que não
+              queria depender de um medicamento para conseguir confiar na minha
+              relação com comida e corpo.
+            </p>
+            <p>
+              Eu queria conseguir viver. Viajar. Comer. Treinar. Sair. Mudar meu
+              corpo ao longo da vida. Sem sentir que precisava de uma canetinha
+              para manter tudo sob controle.
+            </p>
+            <p>
+              E eu saí das canetinhas. Não porque medicamentos emagrecedores
+              sejam certos ou errados — essa é uma decisão individual que deve
+              ser feita com acompanhamento médico.
+            </p>
+            <p>
+              Mas porque, na minha história, eu percebi que mudar meu corpo não
+              estava necessariamente mudando a forma como eu me sentia dentro
+              dele.
+            </p>
+            <p className="font-display text-xl font-medium leading-snug text-moss sm:text-2xl">
+              E comecei a entender uma coisa muito maior: Minha relação com a
+              comida nunca foi só sobre comida.
+            </p>
+            <p>
+              Ela também falava sobre autoestima, emoções, ansiedade,
+              comparação, presença e a forma como eu me enxergava. Foi quando
+              comecei a olhar para essas outras camadas que minha perspectiva
+              começou a mudar.
+            </p>
+            <p>
+              E foi daí que nasceu o Florescer. Não porque hoje eu tenha uma
+              relação perfeita com meu corpo e com a comida. Mas porque encontrei
+              profissionais, conversas, estudos e práticas que eu gostaria muito
+              de ter conhecido antes.
+            </p>
+            <p>
+              E decidi reunir tudo isso em um só lugar.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Dobra 03 · O que é */}
       <section className="bg-muted py-20 lg:py-28">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
           <div className="max-w-3xl">
