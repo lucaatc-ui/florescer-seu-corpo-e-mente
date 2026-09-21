@@ -467,20 +467,6 @@ function Index() {
             <p className="mt-6 max-w-[52ch] text-base leading-relaxed text-background/80 text-pretty sm:text-lg">
               (adicionar descrição)
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-background/70">
-              <span className="flex items-center gap-2">
-                <span className="size-1.5 rounded-full bg-sage"></span> +500
-                mulheres acompanhadas
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="size-1.5 rounded-full bg-sage"></span> 12
-                aulas em vídeo
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="size-1.5 rounded-full bg-sage"></span> Acesso
-                vitalício
-              </span>
-            </div>
             <a
               href="#acesso"
               className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
