@@ -30,30 +30,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="min-h-screen bg-background text-foreground antialiased selection:bg-accent/40">
-      {/* Nav */}
-      <header className="border-b border-foreground/10">
-        <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-8">
-          <a href="/" className="flex items-center gap-3">
-            <img
-              src={logoAsset.url}
-              alt="Florescer"
-              width={40}
-              height={40}
-              className="size-10 object-contain"
-            />
-            <span className="hidden text-xs uppercase tracking-[0.2em] text-moss sm:inline">
-              um curso
-            </span>
-          </a>
-          <a
-            href="#acesso"
-            className="text-sm font-medium text-clay transition-colors hover:text-florish"
-          >
-            Quero começar
-          </a>
-        </div>
-      </header>
-
       {/* Dobra 01 · Hero */}
       <section className="py-16 lg:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
