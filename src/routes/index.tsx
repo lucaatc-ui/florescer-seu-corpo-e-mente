@@ -174,11 +174,29 @@ function Index() {
             <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
               O que é o <span className="italic text-clay">Florescer</span>?
             </h2>
-            <p className="mt-6 max-w-[56ch] text-base leading-relaxed text-foreground/70 text-pretty">
-              Florescer é um conjunto de aulas feitas por três tipos de
-              pessoas, cada uma cuidando de uma parte da sua relação com a
-              comida — devagar, sem culpa e com começo, meio e fim.
-            </p>
+            <div className="mt-6 max-w-[56ch] space-y-4 text-base leading-relaxed text-foreground/70 text-pretty">
+              <p>
+                Uma jornada construída a partir de diferentes perspectivas
+                sobre corpo, comida e mente.
+              </p>
+              <p>
+                Porque não dá para falar de alimentação sem falar de emoções.
+              </p>
+              <p>
+                De compulsão sem falar de restrição. De corpo sem falar de
+                autoestima.
+              </p>
+              <p>E de saúde sem falar de mente.</p>
+              <p>
+                O Florescer não quer te dizer exatamente como você deve comer
+                ou como seu corpo deve ser.
+              </p>
+              <p>
+                A ideia é te ajudar a entender melhor seus padrões, questionar
+                algumas crenças e conhecer ferramentas que podem contribuir
+                para uma relação mais consciente e leve consigo mesma.
+              </p>
+            </div>
           </div>
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
