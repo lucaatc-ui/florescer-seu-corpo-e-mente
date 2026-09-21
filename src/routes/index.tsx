@@ -1,6 +1,28 @@
+import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
+
+const professionals = [
+  {
+    name: "Luiza Lucci",
+    role: "Criadora do Florescer",
+    description: "(adicionar descrição)",
+    image: "hero" as const,
+  },
+  {
+    name: "(adicionar nome)",
+    role: "Psicóloga especialista em neuroses alimentares",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "(adicionar nome)",
+    role: "Nutricionista especialista em saciedade e alimentação consciente",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,6 +48,91 @@ export const Route = createFileRoute("/")({
   }),
   component: Index,
 });
+
+function ProfessionalsCarousel() {
+  const [index, setIndex] = useState(0);
+  const person = professionals[index]!;
+
+  return (
+    <div className="relative mt-12">
+      {/* Quadro */}
+      <div className="rounded-[min(1.5vw,24px)] border border-background/15 bg-background/5 p-6 sm:p-8 lg:p-10">
+        <div className="grid items-center gap-8 md:grid-cols-[minmax(0,340px)_1fr] lg:gap-12">
+          {/* Foto */}
+          <div
+            key={index}
+            className="fade-in relative aspect-[4/5] overflow-hidden rounded-[min(1vw,16px)] bg-background/10"
+          >
+            {person.image === "hero" ? (
+              <img
+                src={heroPortrait}
+                alt={person.name}
+                className="size-full object-cover"
+              />
+            ) : (
+              <div className="flex size-full flex-col items-center justify-center gap-4 border border-dashed border-background/25 bg-sage/15">
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.2"
+                  className="size-14 text-background/50"
+                >
+                  <circle cx="32" cy="32" r="6" />
+                  <path d="M32 26c0-8 6-14 14-14 0 8-6 14-14 14zM32 26c0-8-6-14-14-14 0 8 6 14 14 14zM32 38c0 8 6 14 14 14 0-8-6-14-14-14zM32 38c0 8-6 14-14 14 0-8 6-14 14-14z" />
+                </svg>
+                <p className="px-6 text-center text-xs uppercase tracking-[0.2em] text-background/50">
+                  Espaço para foto
+                </p>
+              </div>
+            )}
+          </div>
+
+          {/* Texto na lateral */}
+          <div key={`text-${index}`} className="fade-in">
+            <p className="text-xs uppercase tracking-[0.25em] text-background/55">
+              {person.role}
+            </p>
+            <h3 className="mt-3 font-display text-3xl font-medium tracking-tight text-balance sm:text-4xl">
+              {person.name}
+            </h3>
+            <p className="mt-5 max-w-[52ch] text-base leading-relaxed text-background/80 text-pretty sm:text-lg">
+              {person.description}
+            </p>
+
+            {/* Indicadores */}
+            <div className="mt-8 flex items-center gap-2.5">
+              {professionals.map((p, i) => (
+                <button
+                  key={p.name + i}
+                  type="button"
+                  aria-label={`Ver ${i === 0 ? "Luiza Lucci" : `profissional ${i + 1}`}`}
+                  onClick={() => setIndex(i)}
+                  className={`h-1.5 rounded-full transition-all ${
+                    i === index
+                      ? "w-8 bg-cream"
+                      : "w-1.5 bg-cream/35 hover:bg-cream/60"
+                  }`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Seta na lateral direita */}
+      <button
+        type="button"
+        aria-label="Próxima profissional"
+        onClick={() => setIndex((i) => (i + 1) % professionals.length)}
+        className="absolute top-1/2 -right-3 z-10 flex size-12 -translate-y-1/2 items-center justify-center rounded-full bg-cream text-lg text-florish shadow-lg ring-1 ring-inset ring-cream/20 transition-all hover:scale-105 hover:bg-florish hover:text-cream sm:-right-5"
+      >
+        <span aria-hidden="true">→</span>
+      </button>
+    </div>
+  );
+}
 
 function Index() {
   return (
@@ -430,27 +537,24 @@ function Index() {
         </div>
       </section>
 
-      {/* Dobra 04 · Expert */}
+      {/* Dobra 04 · Equipe */}
       <section className="bg-moss py-20 text-background lg:py-28">
-        <div className="mx-auto max-w-4xl px-6 lg:px-8">
-          <div>
-            <p className="mb-5 text-xs uppercase tracking-[0.25em] text-background/60">
-              Muito prazer
-            </p>
-            <h2 className="font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              Eu sou Luiza Lucci.
-            </h2>
-            <p className="mt-6 max-w-[52ch] text-base leading-relaxed text-background/80 text-pretty sm:text-lg">
-              (adicionar descrição)
-            </p>
-            <a
-              href="#acesso"
-              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
-            >
-              Quero melhorar minha relação com a comida!
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <p className="mb-5 text-xs uppercase tracking-[0.25em] text-background/60">
+            Conheça o time
+          </p>
+          <h2 className="max-w-3xl font-display text-4xl font-medium leading-[1.05] tracking-tight text-balance sm:text-5xl lg:text-6xl">
+            Conheça mais sobre Luiza e as profissionais que vão te acompanhar
+            no Florescer
+          </h2>
+          <ProfessionalsCarousel />
+          <a
+            href="#acesso"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
+          >
+            Quero melhorar minha relação com a comida!
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
 
