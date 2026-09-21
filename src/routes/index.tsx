@@ -203,7 +203,7 @@ function Index() {
               →
             </span>
           </a>
-          <p className="fade-in fade-in-delay-3 mt-4 text-xs text-foreground/45">
+          <p className="fade-in fade-in-delay-3 mt-4 text-sm font-medium text-foreground sm:text-base">
             Sem dietas punitivas. Só acolhimento, ciência e presença.
           </p>
         </div>
