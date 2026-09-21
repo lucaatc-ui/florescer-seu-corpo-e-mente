@@ -258,44 +258,73 @@ function Index() {
       {/* Dobra 03 · Para quem é */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
-          <h2 className="max-w-[24ch] font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
-            O Florescer é para meninas e mulheres que:
+          <h2 className="max-w-[24ch] font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+            O que o Florescer NÃO promete
           </h2>
-          <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
-            <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
-                1
-              </span>
-              <p className="text-base leading-relaxed text-foreground/75 text-pretty">
-                Percebem colocar na comida uma válvula de escape para dias
-                difíceis, ansiedade ou depressão.
+          <div className="mt-10 max-w-3xl space-y-4">
+            <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+              Eu não quero te vender a ideia de que depois dessas aulas você
+              nunca mais vai comer emocionalmente.
+            </p>
+            <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+              Que nunca mais vai se sentir insegura com seu corpo.
+            </p>
+            <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+              Que vai sair daqui com uma alimentação “perfeita”.
+            </p>
+            <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+              Ou que você deveria começar, parar ou deixar de usar qualquer
+              medicamento.
+            </p>
+          </div>
+          <p className="mt-10 font-display text-2xl font-bold leading-snug text-moss sm:text-3xl">
+            Porque Florescer não é sobre perfeição.
+          </p>
+          <ul className="mt-8 max-w-3xl space-y-4">
+            <li className="flex items-start gap-4">
+              <span
+                aria-hidden="true"
+                className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+              />
+              <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+                É sobre começar a perceber seus padrões.
               </p>
             </li>
-            <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
-                2
-              </span>
-              <p className="text-base leading-relaxed text-foreground/75 text-pretty">
-                Que são muito fissuradas com alimentação e emagrecimento, não
-                conseguem ir em um aniversário ou comer uma sobremesa de forma
-                tranquila.
+            <li className="flex items-start gap-4">
+              <span
+                aria-hidden="true"
+                className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+              />
+              <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+                Entender melhor seus gatilhos.
               </p>
             </li>
-            <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
-                3
-              </span>
-              <p className="text-base leading-relaxed text-foreground/75 text-pretty">
-                Tem todos ou alguns sintomas da compulsão alimentar.
+            <li className="flex items-start gap-4">
+              <span
+                aria-hidden="true"
+                className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+              />
+              <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+                Questionar a necessidade de controlar tudo.
               </p>
             </li>
-            <li className="flex items-start gap-4 rounded-[min(1vw,16px)] bg-muted/60 p-6 ring-1 ring-foreground/5">
-              <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-full bg-moss/10 font-display text-sm text-moss">
-                4
-              </span>
-              <p className="text-base leading-relaxed text-foreground/75 text-pretty">
-                Não consegue emagrecer, sempre faz dieta rígida, não consegue
-                seguir e desiste.
+            <li className="flex items-start gap-4">
+              <span
+                aria-hidden="true"
+                className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+              />
+              <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+                Separar um pouco mais o seu valor da sua aparência.
+              </p>
+            </li>
+            <li className="flex items-start gap-4">
+              <span
+                aria-hidden="true"
+                className="mt-2.5 size-2 shrink-0 rounded-full bg-moss"
+              />
+              <p className="text-lg leading-relaxed text-foreground/80 text-pretty">
+                E conhecer outras formas de se relacionar com comida, corpo e
+                consigo mesma.
               </p>
             </li>
           </ul>
