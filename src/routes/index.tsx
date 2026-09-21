@@ -512,6 +512,46 @@ function Index() {
         </div>
       </section>
 
+      {/* Alerta */}
+      <section className="py-12 lg:py-16">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8">
+          <div className="flex items-start gap-5 rounded-[min(1vw,16px)] border border-clay/30 bg-clay/10 p-6 sm:p-8">
+            <span
+              aria-hidden="true"
+              className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-full bg-clay/20 text-clay"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="size-5"
+              >
+                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                <path d="M12 9v4" />
+                <path d="M12 17h.01" />
+              </svg>
+            </span>
+            <div>
+              <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-clay">
+                Atenção
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-foreground/70 text-pretty">
+                O Florescer é um conteúdo educativo e não substitui
+                acompanhamento psicológico, nutricional ou médico. Não se
+                propõe a diagnosticar ou tratar transtornos alimentares.
+                Decisões sobre início, continuidade, ajuste ou interrupção de
+                medicamentos devem ser feitas individualmente com um
+                profissional de saúde habilitado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="bg-ink py-8 text-background">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 sm:flex-row lg:px-8">
           <div className="flex items-center gap-3">
