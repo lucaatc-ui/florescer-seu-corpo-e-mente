@@ -11,14 +11,32 @@ const professionals = [
     image: "hero" as const,
   },
   {
-    name: "(adicionar nome)",
-    role: "Psicóloga especialista em neuroses alimentares",
+    name: "Bruna Cutait",
+    role: "(adicionar especialidade)",
     description: "(adicionar descrição)",
     image: null,
   },
   {
-    name: "(adicionar nome)",
-    role: "Nutricionista especialista em saciedade e alimentação consciente",
+    name: "Rafa Mansur",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Amanda Taysa",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Marcello Cotrim",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Bruna Crivelenti",
+    role: "(adicionar especialidade)",
     description: "(adicionar descrição)",
     image: null,
   },
@@ -107,7 +125,7 @@ function ProfessionalsCarousel() {
                 <button
                   key={p.name + i}
                   type="button"
-                  aria-label={`Ver ${i === 0 ? "Luiza Lucci" : `profissional ${i + 1}`}`}
+                  aria-label={`Ver ${p.name}`}
                   onClick={() => setIndex(i)}
                   className={`h-1.5 rounded-full transition-all ${
                     i === index
