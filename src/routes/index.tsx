@@ -57,52 +57,40 @@ function Index() {
 
       {/* Dobra 01 · Hero */}
       <section className="py-16 lg:py-24">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-6 lg:grid-cols-12 lg:gap-16 lg:px-8">
-          <div className="order-2 lg:order-1 lg:col-span-7">
-            <p className="fade-in fade-in-delay-1 mb-6 text-xs uppercase tracking-[0.25em] text-clay">
-              Relação saudável com a comida
-            </p>
-            <h1 className="fade-in fade-in-delay-1 max-w-[18ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              Cansada de pensar em comida e no seu corpo o tempo inteiro?
-            </h1>
-            <p className="fade-in fade-in-delay-2 mt-6 max-w-[52ch] text-base leading-relaxed text-foreground/70 text-pretty sm:text-lg">
-              Chega de viver entre controle, exagero, culpa e a promessa de que
-              amanhã vai ser diferente. Você faz “tudo certo” durante o dia e
-              sentir que perdeu o controle depois. Talvez você não precise de
-              mais uma dieta.
-            </p>
-            <a
-              href="#acesso"
-              className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
-            >
-              Quero melhorar minha relação com a comida!
-              <span aria-hidden="true" className="text-cream/80">
-                →
-              </span>
-            </a>
-            <p className="fade-in fade-in-delay-3 mt-4 text-xs text-foreground/45">
-              Sem dietas punitivas. Só acolhimento, ciência e presença.
-            </p>
+        <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
+          <div className="fade-in fade-in-delay-1 w-full max-w-xl">
+            <img
+              src={heroPortrait}
+              alt="Luiza Lucci sorrindo em fundo creme acolhedor"
+              width={1200}
+              height={896}
+              className="h-auto w-full object-cover"
+            />
           </div>
-          <div className="order-1 lg:order-2 lg:col-span-5">
-            <div className="fade-in fade-in-delay-2 relative">
-              <div className="aspect-[4/5] w-full overflow-hidden rounded-[min(1.4vw,20px)] bg-accent/25 outline-1 -outline-offset-1 outline-black/5">
-                <img
-                  src={heroPortrait}
-                  alt="Mulher sorrindo em ambiente acolhedor com luz natural"
-                  width={1080}
-                  height={1400}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-5 -left-4 hidden max-w-[240px] rounded-[min(1vw,12px)] bg-background px-5 py-4 ring-1 ring-foreground/10 sm:block">
-                <p className="font-display text-sm font-medium leading-snug text-foreground">
-                  “Comer bem é também se escutar.”
-                </p>
-                <p className="mt-1 text-xs text-foreground/55">Luiza Lucci</p>
-              </div>
-            </div>
-          </div>
+          <p className="fade-in fade-in-delay-2 mt-10 text-xs uppercase tracking-[0.25em] text-clay">
+            Relação saudável com a comida
+          </p>
+          <h1 className="fade-in fade-in-delay-2 mt-6 max-w-[20ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
+            Cansada de pensar em comida e no seu corpo o tempo inteiro?
+          </h1>
+          <p className="fade-in fade-in-delay-3 mt-6 max-w-[52ch] text-base leading-relaxed text-foreground/70 text-pretty sm:text-lg">
+            Chega de viver entre controle, exagero, culpa e a promessa de que
+            amanhã vai ser diferente. Você faz “tudo certo” durante o dia e
+            sentir que perdeu o controle depois. Talvez você não precise de
+            mais uma dieta.
+          </p>
+          <a
+            href="#acesso"
+            className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+          >
+            Quero melhorar minha relação com a comida!
+            <span aria-hidden="true" className="text-cream/80">
+              →
+            </span>
+          </a>
+          <p className="fade-in fade-in-delay-3 mt-4 text-xs text-foreground/45">
+            Sem dietas punitivas. Só acolhimento, ciência e presença.
+          </p>
         </div>
       </section>
 
