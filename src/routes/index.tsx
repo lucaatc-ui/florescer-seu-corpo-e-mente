@@ -109,7 +109,7 @@ function Index() {
       {/* Dobra 02 · Minha história */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-3xl px-6 lg:px-8">
-          <h2 className="max-w-[22ch] font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+          <h2 className="max-w-[22ch] font-display text-4xl font-medium leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
             Talvez melhorar sua relação com corpo e comida não seja aprender a
             controlá-los ainda mais.
           </h2>
