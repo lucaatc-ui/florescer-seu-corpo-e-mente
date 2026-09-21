@@ -156,7 +156,7 @@ function Index() {
               estava necessariamente mudando a forma como eu me sentia dentro
               dele.
             </p>
-            <p className="font-display text-xl font-medium leading-snug text-moss sm:text-2xl">
+            <p className="font-display text-xl font-bold leading-snug text-moss sm:text-2xl">
               E comecei a entender uma coisa muito maior: Minha relação com a
               comida nunca foi só sobre comida.
             </p>
