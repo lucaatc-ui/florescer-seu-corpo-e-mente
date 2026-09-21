@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
-import expertPortrait from "../assets/expert-portrait.jpg";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -342,20 +341,8 @@ function Index() {
 
       {/* Dobra 04 · Expert */}
       <section className="bg-moss py-20 text-background lg:py-28">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-6 lg:grid-cols-12 lg:gap-16 lg:px-8">
-          <div className="lg:col-span-5">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-[min(1.4vw,20px)] bg-background/10 outline-1 -outline-offset-1 outline-black/5">
-              <img
-                src={expertPortrait}
-                alt="Luiza Lucci, criadora do curso Florescer"
-                width={1080}
-                height={1400}
-                loading="lazy"
-                className="h-full w-full object-cover"
-              />
-            </div>
-          </div>
-          <div className="lg:col-span-7">
+        <div className="mx-auto max-w-4xl px-6 lg:px-8">
+          <div>
             <p className="mb-5 text-xs uppercase tracking-[0.25em] text-background/60">
               Muito prazer
             </p>
