@@ -51,7 +51,7 @@ export const Route = createFileRoute("/")({
 
 function ProfessionalsCarousel() {
   const [index, setIndex] = useState(0);
-  const person = professionals[index] ?? professionals[0]!;
+  const person = professionals[index]!;
 
   return (
     <div className="relative mt-12">
