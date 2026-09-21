@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
@@ -69,10 +69,25 @@ export const Route = createFileRoute("/")({
 
 function ProfessionalsCarousel() {
   const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  // Passa os profissionais automaticamente a cada 5 segundos.
+  useEffect(() => {
+    if (paused) return;
+    const id = setInterval(() => {
+      setIndex((i) => (i + 1) % professionals.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, [paused, index]);
+
   const person = professionals[index]!;
 
   return (
-    <div className="relative mt-12">
+    <div
+      className="relative mt-12"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
       {/* Quadro */}
       <div className="rounded-[min(1.5vw,24px)] border border-background/15 bg-background/5 p-6 sm:p-8 lg:p-10">
         <div className="grid items-center gap-8 md:grid-cols-[minmax(0,340px)_1fr] lg:gap-12">
