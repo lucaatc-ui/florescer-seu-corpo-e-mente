@@ -1,6 +1,28 @@
+import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
+
+const professionals = [
+  {
+    name: "Luiza Lucci",
+    role: "Criadora do Florescer",
+    description: "(adicionar descrição)",
+    image: "hero" as const,
+  },
+  {
+    name: "(adicionar nome)",
+    role: "Psicóloga especialista em neuroses alimentares",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "(adicionar nome)",
+    role: "Nutricionista especialista em saciedade e alimentação consciente",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -430,27 +452,24 @@ function Index() {
         </div>
       </section>
 
-      {/* Dobra 04 · Expert */}
+      {/* Dobra 04 · Equipe */}
       <section className="bg-moss py-20 text-background lg:py-28">
-        <div className="mx-auto max-w-4xl px-6 lg:px-8">
-          <div>
-            <p className="mb-5 text-xs uppercase tracking-[0.25em] text-background/60">
-              Muito prazer
-            </p>
-            <h2 className="font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              Eu sou Luiza Lucci.
-            </h2>
-            <p className="mt-6 max-w-[52ch] text-base leading-relaxed text-background/80 text-pretty sm:text-lg">
-              (adicionar descrição)
-            </p>
-            <a
-              href="#acesso"
-              className="mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
-            >
-              Quero melhorar minha relação com a comida!
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <p className="mb-5 text-xs uppercase tracking-[0.25em] text-background/60">
+            Conheça o time
+          </p>
+          <h2 className="max-w-3xl font-display text-4xl font-medium leading-[1.05] tracking-tight text-balance sm:text-5xl lg:text-6xl">
+            Conheça mais sobre Luiza e as profissionais que vão te acompanhar
+            no Florescer
+          </h2>
+          <ProfessionalsCarousel />
+          <a
+            href="#acesso"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
+          >
+            Quero melhorar minha relação com a comida!
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
 
