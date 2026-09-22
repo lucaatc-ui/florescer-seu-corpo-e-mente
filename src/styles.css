@@ -70,6 +70,7 @@
   --color-florish: var(--florish);
   --color-ink: var(--ink);
   --color-sage: var(--sage);
+  --color-logo: var(--logo);
 }
 
 :root {
