@@ -182,9 +182,6 @@ function Index() {
               className="h-auto w-full object-cover"
             />
           </div>
-          <p className="fade-in fade-in-delay-2 mt-10 text-xs uppercase tracking-[0.25em] text-clay">
-            Relação saudável com a comida
-          </p>
           <h1 className="fade-in fade-in-delay-2 mt-6 max-w-[20ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
             Cansada de pensar em comida e no seu corpo o tempo inteiro?
           </h1>
