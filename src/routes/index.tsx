@@ -107,32 +107,57 @@ function ProfessionalsCarousel() {
         </div>
       </div>
 
-      <button
-        type="button"
-        aria-label="Próxima profissional"
-        onClick={() =>
-          setIndex((i) => (i + 1) % professionals.length)
-        }
-        className="absolute right-3 top-1/2 flex size-11 -translate-y-1/2 items-center justify-center rounded-full bg-cream text-florish ring-1 ring-inset ring-foreground/10 shadow-sm transition-colors hover:bg-glow hover:text-ink lg:-right-5"
-      >
-        <span aria-hidden="true" className="text-lg">
-          →
-        </span>
-      </button>
-
-      <div className="mt-6 flex justify-center gap-2">
-        {professionals.map((p, i) => (
-          <button
-            key={p.name}
-            type="button"
-            aria-label={`Ver ${p.name}`}
-            onClick={() => setIndex(i)}
-            className={`size-2 rounded-full transition-colors ${
-              i === index ? "bg-cream" : "bg-cream/35"
-            }`}
-          />
-        ))}
+      <div className="pointer-events-none absolute inset-y-0 right-3 z-20 flex items-center lg:-right-5">
+        <button
+          type="button"
+          aria-label="Próxima profissional"
+          onClick={() => setIndex((i) => (i + 1) % professionals.length)}
+          className="pointer-events-auto flex size-11 items-center justify-center rounded-full bg-cream text-florish ring-1 ring-inset ring-foreground/10 shadow-sm transition-colors hover:bg-glow hover:text-ink"
+        >
+          <span aria-hidden="true" className="text-lg">
+            →
+          </span>
+        </button>
       </div>
+
+      <div className="mt-6 flex items-center justify-center gap-4">
+        <button
+          type="button"
+          aria-label="Profissional anterior"
+          onClick={() =>
+            setIndex(
+              (i) => (i - 1 + professionals.length) % professionals.length,
+            )
+          }
+          className="flex size-9 items-center justify-center rounded-full bg-cream/20 text-cream transition-colors hover:bg-glow hover:text-ink"
+        >
+          <span aria-hidden="true">←</span>
+        </button>
+
+        <div className="flex gap-2">
+          {professionals.map((p, i) => (
+            <button
+              key={p.name}
+              type="button"
+              aria-label={`Ver ${p.name}`}
+              onClick={() => setIndex(i)}
+              className={`size-2.5 rounded-full transition-colors ${
+                i === index ? "bg-cream" : "bg-cream/35"
+              }`}
+            />
+          ))}
+        </div>
+
+        <button
+          type="button"
+          aria-label="Próxima profissional"
+          onClick={() => setIndex((i) => (i + 1) % professionals.length)}
+          className="flex size-9 items-center justify-center rounded-full bg-cream/20 text-cream transition-colors hover:bg-glow hover:text-ink"
+        >
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+
     </div>
   );
 }
