@@ -346,15 +346,17 @@ function Index() {
               </div>
             ))}
           </div>
-          <a
-            href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
-          >
-            Quero melhorar minha relação com a comida!
-            <span aria-hidden="true" className="text-cream/80">
-              →
-            </span>
-          </a>
+          <div className="mt-10 flex justify-center">
+            <a
+              href="#acesso"
+              className="inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
+            >
+              Quero melhorar minha relação com a comida!
+              <span aria-hidden="true" className="text-ink/70">
+                →
+              </span>
+            </a>
+          </div>
         </div>
       </section>
 
