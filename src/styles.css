@@ -87,6 +87,8 @@
   --sage: oklch(0.720 0.038 105.00);
   /* Verde exato do fundo da logo (rgb 84 92 70) */
   --logo: oklch(0.4612 0.0358 124.03);
+  /* Amarelo escuro florescente para botões */
+  --glow: oklch(0.82 0.175 95.00);
 
   --background: var(--cream);
   --foreground: var(--ink);
