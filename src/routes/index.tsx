@@ -536,7 +536,31 @@ function Index() {
         </div>
       </section>
 
+      {/* Dobra · Conheça o time */}
+      <section className="bg-moss py-20 text-cream lg:py-28">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-[0.25em] text-cream/60">
+            Conheça o time
+          </p>
+          <h2 className="mt-4 max-w-[30ch] font-display text-4xl font-medium leading-tight tracking-tight text-balance text-cream sm:text-5xl lg:text-6xl">
+            Conheça mais sobre Luiza e as profissionais que vão te acompanhar no
+            Florescer
+          </h2>
+
+          <ProfessionalsCarousel />
+
+          <a
+            href="#acesso"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
+          >
+            Quero melhorar minha relação com a comida!
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
       {/* CTA strip */}
+
       <section id="acesso" className="bg-moss py-20 lg:py-24">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-balance text-background sm:text-4xl lg:text-5xl">
