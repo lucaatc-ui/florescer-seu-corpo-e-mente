@@ -71,6 +71,7 @@
   --color-ink: var(--ink);
   --color-sage: var(--sage);
   --color-logo: var(--logo);
+  --color-glow: var(--glow);
 }
 
 :root {
