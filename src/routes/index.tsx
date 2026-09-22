@@ -1,7 +1,133 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
 import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
+import luizaImg from "../assets/hero-portrait.jpg";
+
+const professionals: {
+  name: string;
+  role: string;
+  description: string;
+  image: string | null;
+}[] = [
+  {
+    name: "Luiza Lucci",
+    role: "Criadora do Florescer",
+    description:
+      "Compartilho minha experiência com compulsão, restrição e canetinhas emagrecedoras, e os aprendizados que construíram uma relação mais leve com meu corpo e com a comida.",
+    image: luizaImg,
+  },
+  {
+    name: "Bruna Cutait",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Rafa Mansur",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Amanda Taysa",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Marcello Cotrim",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+  {
+    name: "Bruna Crivelenti",
+    role: "(adicionar especialidade)",
+    description: "(adicionar descrição)",
+    image: null,
+  },
+];
+
+function ProfessionalsCarousel() {
+  const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  useEffect(() => {
+    if (paused) return;
+    const id = setInterval(() => {
+      setIndex((i) => (i + 1) % professionals.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, [paused]);
+
+  const current = professionals[index];
+
+  return (
+    <div
+      className="relative mt-12"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      <div className="grid grid-cols-1 items-center gap-8 rounded-[min(1.5vw,20px)] bg-background p-6 sm:p-8 lg:grid-cols-[minmax(0,320px)_1fr] lg:gap-12">
+        <div className="aspect-[4/5] w-full overflow-hidden rounded-[min(1vw,16px)] bg-muted ring-1 ring-foreground/10">
+          {current.image ? (
+            <img
+              src={current.image}
+              alt={current.name}
+              className="size-full object-cover"
+            />
+          ) : (
+            <div className="flex size-full items-center justify-center px-6 text-center text-xs uppercase tracking-[0.2em] text-foreground/40">
+              Espaço para foto
+            </div>
+          )}
+        </div>
+
+        <div className="lg:pr-12">
+          <p className="text-xs uppercase tracking-[0.25em] text-clay">
+            {current.role}
+          </p>
+          <h3 className="mt-3 font-display text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
+            {current.name}
+          </h3>
+          <p className="mt-5 text-base leading-relaxed text-foreground/70 text-pretty">
+            {current.description}
+          </p>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        aria-label="Próxima profissional"
+        onClick={() =>
+          setIndex((i) => (i + 1) % professionals.length)
+        }
+        className="absolute right-3 top-1/2 flex size-11 -translate-y-1/2 items-center justify-center rounded-full bg-cream text-florish ring-1 ring-inset ring-foreground/10 shadow-sm transition-colors hover:bg-glow hover:text-ink lg:-right-5"
+      >
+        <span aria-hidden="true" className="text-lg">
+          →
+        </span>
+      </button>
+
+      <div className="mt-6 flex justify-center gap-2">
+        {professionals.map((p, i) => (
+          <button
+            key={p.name}
+            type="button"
+            aria-label={`Ver ${p.name}`}
+            onClick={() => setIndex(i)}
+            className={`size-2 rounded-full transition-colors ${
+              i === index ? "bg-cream" : "bg-cream/35"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 
 function Index() {
   return (
