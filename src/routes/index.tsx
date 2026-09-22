@@ -107,19 +107,6 @@ function ProfessionalsCarousel() {
         </div>
       </div>
 
-      <div className="pointer-events-none absolute inset-y-0 right-3 z-20 flex items-center lg:-right-5">
-        <button
-          type="button"
-          aria-label="Próxima profissional"
-          onClick={() => setIndex((i) => (i + 1) % professionals.length)}
-          className="pointer-events-auto flex size-11 items-center justify-center rounded-full bg-cream text-florish ring-1 ring-inset ring-foreground/10 shadow-sm transition-colors hover:bg-glow hover:text-ink"
-        >
-          <span aria-hidden="true" className="text-lg">
-            →
-          </span>
-        </button>
-      </div>
-
       <div className="mt-6 flex items-center justify-center gap-4">
         <button
           type="button"
