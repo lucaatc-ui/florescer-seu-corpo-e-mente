@@ -484,3 +484,25 @@ function Index() {
     </main>
   );
 }
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Florescer — Uma nova relação com corpo e comida" },
+      {
+        name: "description",
+        content:
+          "Curso Florescer, com Luiza Lucci: sem dietas punitivas, com acolhimento, ciência e presença para transformar sua relação com corpo e comida.",
+      },
+      { property: "og:title", content: "Florescer — Uma nova relação com corpo e comida" },
+      {
+        property: "og:description",
+        content:
+          "Chega de viver entre controle, exagero e culpa. Conheça o Florescer, criado por Luiza Lucci com psicóloga e nutricionista.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: Index,
+});
