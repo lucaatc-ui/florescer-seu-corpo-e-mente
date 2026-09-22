@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import heroPortrait from "../assets/hero-portrait.jpg";
+import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 
 const professionals = [
@@ -173,13 +174,13 @@ function Index() {
       {/* Dobra 01 · Hero */}
       <section className="py-16 lg:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
-          <div className="fade-in fade-in-delay-1 w-full max-w-xl">
+          <div className="fade-in fade-in-delay-1 w-full max-w-md">
             <img
-              src={heroPortrait}
-              alt="Luiza Lucci sorrindo em fundo creme acolhedor"
-              width={1200}
-              height={896}
-              className="h-auto w-full object-cover"
+              src={heroLogo.url}
+              alt="Florescer"
+              width={1024}
+              height={1024}
+              className="h-auto w-full rounded-[min(1.5vw,24px)] object-cover"
             />
           </div>
           <h1 className="fade-in fade-in-delay-2 mt-6 max-w-[20ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
