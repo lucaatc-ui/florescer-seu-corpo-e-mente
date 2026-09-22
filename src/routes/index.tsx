@@ -570,13 +570,6 @@ function Index() {
 
           <ProfessionalsCarousel />
 
-          <a
-            href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
-          >
-            Quero melhorar minha relação com a comida!
-            <span aria-hidden="true">→</span>
-          </a>
         </div>
       </section>
 
