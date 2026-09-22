@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
+import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
 
 function Index() {
   return (
