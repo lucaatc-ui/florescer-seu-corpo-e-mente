@@ -75,11 +75,11 @@ function ProfessionalsCarousel() {
 
   return (
     <div
-      className="relative mt-12"
+      className="relative mx-auto mt-10 max-w-3xl"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="grid grid-cols-1 items-center gap-8 rounded-[min(1.5vw,20px)] bg-background p-6 sm:p-8 lg:grid-cols-[minmax(0,320px)_1fr] lg:gap-12">
+      <div className="grid grid-cols-1 items-center gap-6 rounded-[min(1.5vw,20px)] bg-background p-5 sm:p-6 lg:grid-cols-[minmax(0,200px)_1fr] lg:gap-8">
         <div className="aspect-[4/5] w-full overflow-hidden rounded-[min(1vw,16px)] bg-muted ring-1 ring-foreground/10">
           {current.image ? (
             <img
@@ -94,17 +94,18 @@ function ProfessionalsCarousel() {
           )}
         </div>
 
-        <div className="lg:pr-12">
-          <p className="text-xs uppercase tracking-[0.25em] text-clay">
+        <div className="lg:pr-4">
+          <p className="text-[11px] uppercase tracking-[0.25em] text-clay">
             {current.role}
           </p>
-          <h3 className="mt-3 font-display text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
+          <h3 className="mt-2 font-display text-2xl font-medium leading-tight tracking-tight text-foreground sm:text-3xl">
             {current.name}
           </h3>
-          <p className="mt-5 text-base leading-relaxed text-foreground/70 text-pretty">
+          <p className="mt-3 text-sm leading-relaxed text-foreground/70 text-pretty">
             {current.description}
           </p>
         </div>
+
       </div>
 
       <div className="mt-6 flex items-center justify-center gap-4">
