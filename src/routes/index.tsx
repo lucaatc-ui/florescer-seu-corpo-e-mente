@@ -4,6 +4,9 @@ import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
 import luizaImg from "../assets/hero-portrait.jpg";
+import brunaImg from "../assets/bruna.jpeg.asset.json";
+import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
+import marcelloImg from "../assets/Marcello.jpeg.asset.json";
 
 const professionals: {
   name: string;
@@ -12,43 +15,49 @@ const professionals: {
   image: string | null;
 }[] = [
   {
-    name: "Luiza Lucci",
-    role: "Criadora do Florescer",
+    name: "Amanda Thaysa",
+    role: "Psicóloga",
     description:
-      "Compartilho minha experiência com compulsão, restrição e canetinhas emagrecedoras, e os aprendizados que construíram uma relação mais leve com meu corpo e com a comida.",
-    image: luizaImg,
+      "Traz o olhar emocional sobre a relação com corpo e comida, ajudando a entender o que existe por trás da compulsão, da ansiedade e do uso da comida como válvula de escape.",
+    image: null,
   },
   {
-    name: "Bruna Cutait",
-    role: "(adicionar especialidade)",
-    description: "(adicionar descrição)",
+    name: "Bruna Kutait",
+    role: "Nutricionista",
+    description:
+      "Traz o olhar da nutrição para construir uma alimentação mais equilibrada e possível, entendendo fome, saciedade e escolhas alimentares sem cair na lógica da restrição.",
+    image: brunaImg.url,
+  },
+  {
+    name: "Bruna Crivellente",
+    role: "Práticas corporais e meditação",
+    description:
+      "Conduz práticas de respiração, meditação e consciência corporal para sair um pouco da cabeça, se reconectar com o corpo e encontrar novas formas de lidar com as emoções.",
     image: null,
+  },
+  {
+    name: "Marcelo Cotrim",
+    role: "Autoconhecimento",
+    description:
+      "Traz ferramentas e reflexões para entender padrões, comportamentos e crenças que influenciam a forma como você se relaciona consigo mesma e com a sua vida.",
+    image: marcelloImg.url,
   },
   {
     name: "Rafa Mansur",
-    role: "(adicionar especialidade)",
-    description: "(adicionar descrição)",
-    image: null,
+    role: "Psicóloga e criadora de conteúdo sobre compulsão",
+    description:
+      "Traz ferramentas práticas para transformar a relação com a comida, entendendo os ciclos de restrição, culpa, compulsão e a busca constante por controle.",
+    image: rafaelaImg.url,
   },
   {
-    name: "Amanda Taysa",
-    role: "(adicionar especialidade)",
-    description: "(adicionar descrição)",
-    image: null,
-  },
-  {
-    name: "Marcello Cotrim",
-    role: "(adicionar especialidade)",
-    description: "(adicionar descrição)",
-    image: null,
-  },
-  {
-    name: "Bruna Crivelenti",
-    role: "(adicionar especialidade)",
-    description: "(adicionar descrição)",
-    image: null,
+    name: "Luiza Lucci",
+    role: "Criadora do Florescer",
+    description:
+      "Compartilho a minha própria experiência — da compulsão e das canetinhas emagrecedoras até a construção de uma relação mais leve com corpo e comida — conectando os aprendizados dos profissionais com a vida real.",
+    image: luizaImg,
   },
 ];
+
 
 function ProfessionalsCarousel() {
   const [index, setIndex] = useState(0);
