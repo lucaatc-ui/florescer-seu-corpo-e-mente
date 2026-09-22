@@ -51,6 +51,14 @@ function Index() {
           <p className="mt-8 text-base italic leading-relaxed text-foreground/70 text-pretty sm:text-lg">
             Eu demorei anos para perceber isso.
           </p>
+          <figure className="mt-8 overflow-hidden rounded-[min(1vw,16px)] ring-1 ring-foreground/10">
+            <img
+              src={jornadaImg.url}
+              alt="Compulsão, restrição e equilíbrio: a jornada da Luiza"
+              className="h-auto w-full object-cover"
+            />
+          </figure>
+
           <p className="mt-8 font-display text-2xl font-medium leading-snug text-foreground sm:text-3xl">
             Oi, eu sou a Luiza Lucci.
           </p>
