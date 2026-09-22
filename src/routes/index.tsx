@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
-import luizaImg from "../assets/hero-portrait.jpg";
+import luizaImg from "../assets/luiza-lucci.jpg.asset.json";
 import brunaImg from "../assets/bruna.jpeg.asset.json";
 import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
 import marcelloImg from "../assets/Marcello.jpeg.asset.json";
@@ -54,7 +54,7 @@ const professionals: {
     role: "Criadora do Florescer",
     description:
       "Compartilho a minha própria experiência — da compulsão e das canetinhas emagrecedoras até a construção de uma relação mais leve com corpo e comida — conectando os aprendizados dos profissionais com a vida real.",
-    image: luizaImg,
+    image: luizaImg.url,
   },
 ];
 
