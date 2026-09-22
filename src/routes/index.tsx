@@ -172,7 +172,7 @@ function Index() {
   return (
     <main className="min-h-screen bg-background text-foreground antialiased selection:bg-accent/40">
       {/* Dobra 01 · Hero */}
-      <section className="bg-moss py-16 text-cream lg:py-24">
+      <section className="bg-logo py-16 text-cream lg:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
           <div className="fade-in fade-in-delay-1 w-full max-w-md">
             <img

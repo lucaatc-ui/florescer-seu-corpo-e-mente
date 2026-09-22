@@ -70,6 +70,7 @@
   --color-florish: var(--florish);
   --color-ink: var(--ink);
   --color-sage: var(--sage);
+  --color-logo: var(--logo);
 }
 
 :root {
@@ -83,6 +84,8 @@
   --florish: oklch(0.62 0.145 142.00);
   --ink: oklch(0.280 0.018 130.00);
   --sage: oklch(0.720 0.038 105.00);
+  /* Verde exato do fundo da logo (rgb 84 92 70) */
+  --logo: oklch(0.4612 0.0358 124.03);
 
   --background: var(--cream);
   --foreground: var(--ink);
