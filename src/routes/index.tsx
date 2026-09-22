@@ -28,10 +28,10 @@ function Index() {
           </p>
           <a
             href="#acesso"
-            className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/30 transition-colors hover:bg-cream/90"
+            className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
-            <span aria-hidden="true" className="text-florish/80">
+            <span aria-hidden="true" className="text-ink/70">
               →
             </span>
           </a>
@@ -192,7 +192,7 @@ function Index() {
           </div>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true" className="text-cream/80">
@@ -277,7 +277,7 @@ function Index() {
           </ul>
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero me relacionar melhor com a comida!
             <span aria-hidden="true" className="text-cream/80">
@@ -392,7 +392,7 @@ function Index() {
 
           <a
             href="#acesso"
-            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+            className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true" className="text-cream/80">
@@ -414,7 +414,7 @@ function Index() {
           </p>
           <a
             href="#acesso"
-            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-8 py-4 text-sm font-medium text-florish ring-1 ring-inset ring-cream/20 transition-colors hover:bg-florish hover:text-cream hover:ring-florish/20"
+            className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-8 py-4 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
             <span aria-hidden="true">→</span>
