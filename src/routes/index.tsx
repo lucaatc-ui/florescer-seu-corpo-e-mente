@@ -154,50 +154,49 @@ function Index() {
               </p>
             </div>
           </div>
-          <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
-              <span className="font-display text-5xl leading-none text-moss/60">
-                01
-              </span>
-              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
-                Uma psicóloga
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
-                Para trazer a parte mais emocional que temos com a comida,
-                explicando processos de ansiedade/depressão que podemos
-                depositar em nossa alimentação e a quais as ferramentas para
-                diminuir essas válvulas de escape que colocamos em doces,
-                altas quantidades de comida e etc…
-              </p>
-            </div>
-            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
-              <span className="font-display text-5xl leading-none text-moss/60">
-                02
-              </span>
-              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
-                Uma nutricionista
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
-                Trazendo do ponto de vista nutricional os alimentos que nos dão
-                maior saciedade, trazem as vitaminas e minerais que
-                necessitamos para o funcionamento do nosso corpo e mente,
-                diminuindo a possibilidade de crises que usam a comida como
-                               válvula de escape.
-              </p>
-            </div>
-            <div className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30">
-              <span className="font-display text-5xl leading-none text-moss/60">
-                03
-              </span>
-              <h3 className="mt-4 font-display text-xl font-medium text-foreground">
-                Eu mesma, Luiza Lucci
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
-                Que passei por todo processo de compulsão alimentar, contando
-                minhas história e explicando conceitos, dando dicas que me
-                ajudam a não voltar a ter recaídas fortes como antes eu tinha.
-              </p>
-            </div>
+          <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                n: "01",
+                title: "Uma nutricionista",
+                text: "Para trazer um olhar mais leve e prático sobre alimentação, entendendo fome, saciedade e como nutrir o corpo sem viver presa à restrição.",
+              },
+              {
+                n: "02",
+                title: "Duas psicólogas",
+                text: "Para entender o que existe por trás da relação com a comida: ansiedade, culpa, compulsão, controle, autoestima e os padrões emocionais que muitas vezes transformam a comida em válvula de escape.",
+              },
+              {
+                n: "03",
+                title: "Uma professora de yoga e meditação",
+                text: "Para trazer o corpo para esse processo, com práticas de respiração, presença e consciência corporal que ajudam a lidar com as emoções para além da comida.",
+              },
+              {
+                n: "04",
+                title: "Um especialista em espiritualidade",
+                text: "Para aprofundar o olhar para dentro, trazendo reflexões sobre propósito, autoconhecimento e a construção de uma vida que não seja guiada apenas pela aparência.",
+              },
+              {
+                n: "05",
+                title: "E eu, Luiza Lucci",
+                text: "Para conectar tudo isso à vida real. Compartilho a minha experiência com compulsão, restrição e canetinhas emagrecedoras — e os aprendizados que fizeram parte da construção de uma relação mais leve com meu corpo e com a comida.",
+              },
+            ].map((item) => (
+              <div
+                key={item.n}
+                className="rounded-[min(1vw,16px)] bg-background p-8 ring-1 ring-foreground/5 border-t-4 border-moss/30"
+              >
+                <span className="font-display text-5xl leading-none text-moss/60">
+                  {item.n}
+                </span>
+                <h3 className="mt-4 font-display text-xl font-medium text-foreground">
+                  {item.title}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-foreground/65 text-pretty">
+                  {item.text}
+                </p>
+              </div>
+            ))}
           </div>
           <a
             href="#acesso"
