@@ -62,7 +62,7 @@ function ProfessionalsCarousel() {
     return () => clearInterval(id);
   }, [paused]);
 
-  const current = professionals[index];
+  const current = professionals[index]!;
 
   return (
     <div
