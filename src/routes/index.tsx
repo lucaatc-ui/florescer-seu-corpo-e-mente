@@ -172,7 +172,7 @@ function Index() {
   return (
     <main className="min-h-screen bg-background text-foreground antialiased selection:bg-accent/40">
       {/* Dobra 01 · Hero */}
-      <section className="py-16 lg:py-24">
+      <section className="bg-moss py-16 text-cream lg:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
           <div className="fade-in fade-in-delay-1 w-full max-w-md">
             <img
@@ -183,10 +183,10 @@ function Index() {
               className="h-auto w-full rounded-[min(1.5vw,24px)] object-cover"
             />
           </div>
-          <h1 className="fade-in fade-in-delay-2 mt-6 max-w-[20ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance sm:text-5xl lg:text-6xl">
+          <h1 className="fade-in fade-in-delay-2 mt-6 max-w-[20ch] font-display text-4xl font-medium leading-[1.02] tracking-tight text-balance text-cream sm:text-5xl lg:text-6xl">
             Cansada de pensar em comida e no seu corpo o tempo inteiro?
           </h1>
-          <p className="fade-in fade-in-delay-3 mt-6 max-w-[52ch] text-base leading-relaxed text-foreground/70 text-pretty sm:text-lg">
+          <p className="fade-in fade-in-delay-3 mt-6 max-w-[52ch] text-base leading-relaxed text-cream/80 text-pretty sm:text-lg">
             Chega de viver entre controle, exagero, culpa e a promessa de que
             amanhã vai ser diferente. Você faz “tudo certo” durante o dia e
             sentir que perdeu o controle depois. Talvez você não precise de
@@ -194,14 +194,14 @@ function Index() {
           </p>
           <a
             href="#acesso"
-            className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-florish px-7 py-3.5 text-sm font-medium text-cream ring-1 ring-inset ring-florish/20 transition-colors hover:bg-florish/90 hover:ring-florish/20"
+            className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-cream px-7 py-3.5 text-sm font-medium text-florish ring-1 ring-inset ring-cream/30 transition-colors hover:bg-cream/90"
           >
             Quero melhorar minha relação com a comida!
-            <span aria-hidden="true" className="text-cream/80">
+            <span aria-hidden="true" className="text-florish/80">
               →
             </span>
           </a>
-          <p className="fade-in fade-in-delay-3 mt-4 text-sm font-medium text-foreground sm:text-base">
+          <p className="fade-in fade-in-delay-3 mt-4 text-sm font-medium text-cream sm:text-base">
             Sem dietas punitivas. Só acolhimento, ciência e presença.
           </p>
         </div>
