@@ -174,7 +174,7 @@ function Index() {
       {/* Dobra 01 · Hero */}
       <section className="bg-logo py-16 text-cream lg:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:px-8">
-          <div className="fade-in fade-in-delay-1 w-full max-w-md">
+          <div className="fade-in fade-in-delay-1 w-full max-w-[220px]">
             <img
               src={heroLogo.url}
               alt="Florescer"
