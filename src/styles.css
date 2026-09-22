@@ -161,6 +161,13 @@
 
   body {
     background-color: var(--color-background);
+    background-image:
+      radial-gradient(60% 45% at 50% 0%, oklch(0.93 0.05 90 / 0.9) 0%, transparent 70%),
+      radial-gradient(45% 35% at 12% 18%, oklch(0.9 0.06 85 / 0.45) 0%, transparent 70%),
+      radial-gradient(45% 35% at 88% 18%, oklch(0.9 0.06 85 / 0.45) 0%, transparent 70%),
+      radial-gradient(70% 50% at 50% 100%, oklch(0.88 0.04 95 / 0.35) 0%, transparent 70%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--color-foreground);
     font-family: var(--font-body);
   }
