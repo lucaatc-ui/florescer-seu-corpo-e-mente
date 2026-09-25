@@ -15,35 +15,35 @@ const professionals: {
   image: string | null;
 }[] = [
   {
-    name: "Amanda Thaysa",
+    name: "Amanda Taysa",
     role: "Psicóloga",
     description:
       "Traz o olhar emocional sobre a relação com corpo e comida, ajudando a entender o que existe por trás da compulsão, da ansiedade e do uso da comida como válvula de escape.",
     image: null,
   },
   {
-    name: "Bruna Kutait",
+    name: "Bruna Cutait",
     role: "Nutricionista",
     description:
       "Traz o olhar da nutrição para construir uma alimentação mais equilibrada e possível, entendendo fome, saciedade e escolhas alimentares sem cair na lógica da restrição.",
     image: brunaImg.url,
   },
   {
-    name: "Bruna Crivellente",
+    name: "Bruna Crivelenti",
     role: "Práticas corporais e meditação",
     description:
       "Conduz práticas de respiração, meditação e consciência corporal para sair um pouco da cabeça, se reconectar com o corpo e encontrar novas formas de lidar com as emoções.",
     image: null,
   },
   {
-    name: "Marcelo Cotrim",
+    name: "Marcello Cotrim",
     role: "Autoconhecimento",
     description:
       "Traz ferramentas e reflexões para entender padrões, comportamentos e crenças que influenciam a forma como você se relaciona consigo mesma e com a sua vida.",
     image: marcelloImg.url,
   },
   {
-    name: "Rafa Mansur",
+    name: "Rafaela Mansur",
     role: "Psicóloga e criadora de conteúdo sobre compulsão",
     description:
       "Traz ferramentas práticas para transformar a relação com a comida, entendendo os ciclos de restrição, culpa, compulsão e a busca constante por controle.",
