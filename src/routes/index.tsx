@@ -21,6 +21,9 @@ const professionals: {
     description:
       "Traz o olhar emocional sobre a relação com corpo e comida, ajudando a entender o que existe por trás da compulsão, da ansiedade e do uso da comida como válvula de escape.",
     image: amandaImg.url,
+  },
+  {
+    name: "Bruna Cutait",
     role: "Nutricionista",
     description:
       "Traz o olhar da nutrição para construir uma alimentação mais equilibrada e possível, entendendo fome, saciedade e escolhas alimentares sem cair na lógica da restrição.",
