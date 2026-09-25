@@ -35,7 +35,7 @@ const professionals: {
     role: "Práticas corporais e meditação",
     description:
       "Conduz práticas de respiração, meditação e consciência corporal para sair um pouco da cabeça, se reconectar com o corpo e encontrar novas formas de lidar com as emoções.",
-    image: null,
+    image: brunaCrivelentiImg.url,
   },
   {
     name: "Marcello Cotrim",
