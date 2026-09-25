@@ -197,7 +197,7 @@ function Index() {
       {/* Dobra 02 · Minha história */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-3xl px-6 lg:px-8">
-          <h2 className="max-w-[22ch] font-display text-4xl font-medium leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
+          <h2 className="mx-auto max-w-[22ch] text-center font-display text-4xl font-medium leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
             Talvez melhorar sua relação com corpo e comida não seja aprender a
             controlá-los ainda mais.
           </h2>
@@ -278,8 +278,8 @@ function Index() {
       {/* Dobra 03 · O que é */}
       <section className="bg-muted py-20 lg:py-28">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-center font-display text-3xl font-medium leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
               O que é o <span className="italic text-clay">Florescer</span>?
             </h2>
             <div className="mt-6 max-w-[56ch] space-y-4 text-base leading-relaxed text-foreground/70 text-pretty">
@@ -367,7 +367,7 @@ function Index() {
       {/* Dobra 03 · Para quem é */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
-          <h2 className="max-w-[24ch] font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+          <h2 className="mx-auto max-w-[24ch] text-center font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
             O que o Florescer NÃO promete
           </h2>
           <div className="mt-10 max-w-3xl space-y-4">
@@ -452,7 +452,7 @@ function Index() {
       {/* Dobra · O que você encontra dentro do Florescer */}
       <section className="bg-muted py-20 lg:py-28">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
-          <h2 className="max-w-[24ch] font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
+          <h2 className="mx-auto max-w-[24ch] text-center font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
             O que você encontra dentro do Florescer
           </h2>
 
@@ -567,10 +567,10 @@ function Index() {
       {/* Dobra · Conheça o time */}
       <section className="bg-moss py-20 text-cream lg:py-28">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
-          <p className="text-xs uppercase tracking-[0.25em] text-cream/60">
+          <p className="text-center text-xs uppercase tracking-[0.25em] text-cream/60">
             Conheça o time
           </p>
-          <h2 className="mt-4 max-w-[30ch] font-display text-4xl font-medium leading-tight tracking-tight text-balance text-cream sm:text-5xl lg:text-6xl">
+          <h2 className="mx-auto mt-4 max-w-[30ch] text-center font-display text-4xl font-medium leading-tight tracking-tight text-balance text-cream sm:text-5xl lg:text-6xl">
             Conheça mais sobre Luiza e as profissionais que vão te acompanhar no
             Florescer
           </h2>
