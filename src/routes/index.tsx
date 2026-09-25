@@ -7,6 +7,7 @@ import luizaImg from "../assets/luiza-palestra.jpeg.asset.json";
 import brunaImg from "../assets/bruna.jpeg.asset.json";
 import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
 import marcelloImg from "../assets/Marcello.jpeg.asset.json";
+import amandaImg from "../assets/Amanda.jpeg.asset.json";
 
 const professionals: {
   name: string;
@@ -19,7 +20,7 @@ const professionals: {
     role: "Psicóloga",
     description:
       "Traz o olhar emocional sobre a relação com corpo e comida, ajudando a entender o que existe por trás da compulsão, da ansiedade e do uso da comida como válvula de escape.",
-    image: null,
+    image: amandaImg.url,
   },
   {
     name: "Bruna Cutait",
