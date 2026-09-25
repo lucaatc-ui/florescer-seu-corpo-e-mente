@@ -8,6 +8,7 @@ import brunaImg from "../assets/bruna.jpeg.asset.json";
 import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
 import marcelloImg from "../assets/Marcello.jpeg.asset.json";
 import amandaImg from "../assets/Amanda.jpeg.asset.json";
+import brunaCrivelentiImg from "../assets/brunaaaa.jpg.asset.json";
 
 const professionals: {
   name: string;
@@ -34,7 +35,7 @@ const professionals: {
     role: "Práticas corporais e meditação",
     description:
       "Conduz práticas de respiração, meditação e consciência corporal para sair um pouco da cabeça, se reconectar com o corpo e encontrar novas formas de lidar com as emoções.",
-    image: null,
+    image: brunaCrivelentiImg.url,
   },
   {
     name: "Marcello Cotrim",
