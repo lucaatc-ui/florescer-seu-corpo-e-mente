@@ -88,7 +88,7 @@ function ProfessionalsCarousel() {
               src={current.image}
               alt={current.name}
               className={`size-full object-cover ${
-                current.name === "Luiza Lucci" ? "object-[center_18%]" : "object-center"
+                current.name === "Luiza Lucci" ? "object-[center_28%]" : "object-center"
               }`}
             />
           ) : (
