@@ -8,6 +8,7 @@ import brunaImg from "../assets/bruna.jpeg.asset.json";
 import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
 import marcelloImg from "../assets/Marcello.jpeg.asset.json";
 import amandaImg from "../assets/Amanda.jpeg.asset.json";
+import brunaCrivelentiImg from "../assets/brunaaaa.jpg.asset.json";
 
 const professionals: {
   name: string;
