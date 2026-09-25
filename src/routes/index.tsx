@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
-import luizaImg from "../assets/luiza-palestra.jpeg.asset.json";
+import luizaImg from "../assets/luiza-nova.jpg.asset.json";
 import brunaImg from "../assets/bruna.jpeg.asset.json";
 import rafaelaImg from "../assets/rafaela.jpeg.asset.json";
 import marcelloImg from "../assets/Marcello.jpeg.asset.json";
@@ -88,7 +88,7 @@ function ProfessionalsCarousel() {
               src={current.image}
               alt={current.name}
               className={`size-full object-cover ${
-                current.name === "Luiza Lucci" ? "object-[center_18%]" : "object-center"
+                current.name === "Luiza Lucci" ? "object-[center_28%]" : "object-center"
               }`}
             />
           ) : (
