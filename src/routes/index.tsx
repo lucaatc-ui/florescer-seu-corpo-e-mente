@@ -180,7 +180,7 @@ function Index() {
             mais uma dieta.
           </p>
           <a
-            href="#acesso"
+            href="https://chat.whatsapp.com/GUbHYuYKIXT5qsVY6brH5Z?mode=gi_t" target="_blank" rel="noopener noreferrer"
             className="fade-in fade-in-delay-3 mt-9 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
@@ -352,7 +352,7 @@ function Index() {
           </div>
           <div className="mt-10 flex justify-center">
             <a
-              href="#acesso"
+              href="https://chat.whatsapp.com/GUbHYuYKIXT5qsVY6brH5Z?mode=gi_t" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
             >
               Quero melhorar minha relação com a comida!
@@ -438,7 +438,7 @@ function Index() {
             </li>
           </ul>
           <a
-            href="#acesso"
+            href="https://chat.whatsapp.com/GUbHYuYKIXT5qsVY6brH5Z?mode=gi_t" target="_blank" rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero me relacionar melhor com a comida!
@@ -553,7 +553,7 @@ function Index() {
           </div>
 
           <a
-            href="#acesso"
+            href="https://chat.whatsapp.com/GUbHYuYKIXT5qsVY6brH5Z?mode=gi_t" target="_blank" rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-7 py-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
@@ -592,7 +592,7 @@ function Index() {
             está te esperando.
           </p>
           <a
-            href="#acesso"
+            href="https://chat.whatsapp.com/GUbHYuYKIXT5qsVY6brH5Z?mode=gi_t" target="_blank" rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-[min(1vw,12px)] bg-glow px-8 py-4 text-sm font-medium text-ink ring-1 ring-inset ring-glow/40 transition-colors hover:bg-glow/90"
           >
             Quero melhorar minha relação com a comida!
