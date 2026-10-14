@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroLogo from "../assets/logo-florescer-2.jpeg.asset.json";
+import heroLogo from "../assets/logo-florescer-3.jpeg.asset.json";
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
 import luizaImg from "../assets/luiza-nova.jpg.asset.json";
