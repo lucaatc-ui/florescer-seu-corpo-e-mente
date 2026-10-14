@@ -571,7 +571,7 @@ function Index() {
             Conheça o time
           </p>
           <h2 className="mx-auto mt-4 max-w-[30ch] text-center font-display text-4xl font-medium leading-tight tracking-tight text-balance text-cream sm:text-5xl lg:text-6xl">
-            Conheça mais sobre Luiza e as profissionais que vão te acompanhar no
+            Conheça mais sobre Luiza e os profissionais que vão te acompanhar no
             Florescer
           </h2>
 
