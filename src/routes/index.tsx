@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroLogo from "../assets/logo-florescer-3.jpeg.asset.json";
+import heroLogoSrc from "../assets/logo-topo.jpg";
+const heroLogo = { url: heroLogoSrc };
 import logoAsset from "../assets/logo-florecer.jpeg.asset.json";
 import jornadaImg from "../assets/fotoevoluir.jpeg.asset.json";
 import luizaImg from "../assets/luiza-nova.jpg.asset.json";
